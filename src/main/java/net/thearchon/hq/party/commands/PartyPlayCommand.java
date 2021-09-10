@@ -1,0 +1,18 @@
+package net.thearchon.hq.party.commands;
+
+import net.thearchon.hq.Player;
+import net.thearchon.hq.command.Command;
+import net.thearchon.hq.party.Party;
+
+public class PartyPlayCommand extends Command {
+
+    @Override
+    public void execute(Player player, String[] args) {
+        Party party = player.getParty();
+        if (party == null) {
+            player.error("You aren't in a party!");
+            return;
+        }
+
+    }
+}
