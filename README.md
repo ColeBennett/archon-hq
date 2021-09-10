@@ -1,3 +1,3 @@
 # archon-hq
 
-A backend networking system in Java to track and manage real-time information of server, proxy, and player connections for large-scale Minecraft multiplayer networks.
+A backend networking system written in Java that tracks and manages real-time information of server, proxy, and player connections for large-scale Minecraft multiplayer networks.
